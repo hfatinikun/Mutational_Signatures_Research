@@ -1,0 +1,47 @@
+# OS / Editor files
+.DS_Store
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Python / Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# R package cache
+.packrat/
+renv/
+renv.lock
+.Rprofile
+
+# Project-specific output folders (derived results)
+Output/
+cosine/
+signature_results/
+
+# Large input data (comment these out if you want them tracked)
+Input files/
+Cosmic files/
+
+# R figure outputs
+*.pdf
+*.png
+*.svg
+*.jpeg
+*.jpg
+
+# Exception: keep manually added figures folder
+!README_figs/
+
+# Logs / Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.aux
+
+# Archives
+*.zip
+*.tar.gz
